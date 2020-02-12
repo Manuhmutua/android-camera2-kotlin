@@ -1,0 +1,3 @@
+include ':app', ':vedio-live-stream', ':haishinkit'
+rootProject.name='VedioStreaming V.1'
+project(':haishinkit').projectDir = new File('HaishinKit.kt/haishinkit')
